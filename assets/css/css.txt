@@ -1,0 +1,345 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@font-face {
+    font-family: mojFont;
+    src: url("../font/Asap_Condensed-Thin.ttf");
+}
+
+body{
+    font-family: mojFont;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #f5f5f5 ;
+    display: grid;
+    grid-template-columns:180px 150px 100px 1fr 800px 100px ;
+    grid-template-rows: 10px 80px 10px ;
+   
+}
+
+
+#ikonica{
+    grid-area: 1/2/3/3;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+#ikonica img{
+    
+    width: 60%;
+    height: 90%;
+}
+
+nav{
+   
+    grid-area:2/5/3/6 ;
+}
+
+nav ul{
+    padding-top: 25px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 50px;
+    margin-left: 30px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 28px;
+    color: rgba(26,122,18,0.8) ;
+    font-weight: 900;
+}
+
+
+#pozadina{
+    width: 100%;
+    height: 800px;
+    background-image: url("../slike/pozadina.jpeg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#bela{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.3);
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 40% 100px 20px 100px 20px  1fr 20px;
+    text-align: center;
+}
+
+#bela h1{
+    grid-area: 2/2/3/3 ;
+    font-size: 85px;
+    color:#704214;
+    font-family: mojFont;
+    word-spacing: 18px;
+    
+}
+
+#bela h2{
+    grid-area: 4/2/5/3 ;
+    font-size: 75px;
+    color: #704214;
+    letter-spacing: 2px;
+    word-spacing: 18px;
+    font-family: mojFont;
+    
+}
+
+#dvaDugmeta{
+    grid-area:6/2/7/3;
+}
+
+.btn{
+    padding: 20px 15px;
+    margin: 50px 5px 0px 5px;
+    background-color:  rgba(26,122,18,0.8);
+    border: 2px solid  #f5f5f5;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #f5f5f5;
+
+}
+
+
+.btn:hover{
+    background-color: #f5f5f5;
+    border: 2px solid rgba(26,122,18,0.8);
+    color:rgba(26,122,18,0.8) ;
+}
+
+.razmak{
+    width: 100%;
+    height: 100px;
+    background-color: #f5f5f5;
+}
+
+.razmak2{
+    width: 100%;
+    height: 20px;
+    background-color: #f5f5f5;
+}
+
+#aboutMe{
+    width: 100%;
+    height: 600px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+ 
+#tab1,#tab2{
+    width: 25%;
+    display: grid;
+    grid-template-columns: 20px 1fr 20px;
+    grid-template-rows: 100px 1fr 100px;
+   
+}
+
+#tab1 table,#tab2 table{
+    grid-area: 2/2/3/3;
+}
+
+
+#tab1 h2,#tab2 h2{
+    font-size: 38px;
+    color: rgb(26,122,18);
+}
+
+#tab1 p, #tab2 p{
+    font-size: 35px;
+    color:rgba(26,122,18,0.8);
+}
+
+.donji{
+    padding-bottom: 20px;
+}
+
+#slikaA{
+    width: 30%;
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-rows: 100px 1fr 100px;
+    
+}
+
+#naslovA{
+    grid-area: 1/2/2/3;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(26,122,18);
+}
+
+#slikaA img{
+    grid-area: 2/2/3/3;
+    border-radius: 20px;
+}
+
+
+#skills{
+    width: 100%;
+    height: 600px;
+    background-image: url("../slike/pozadina2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#bela2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    display: grid;
+    grid-template-rows: 50px 50px 20px 1fr 50px;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+
+
+
+
+#naslovS{
+    grid-area: 2/1/3/2;
+}
+
+#naslovS h1{
+    font-size:50px;
+    color: #704214;
+}
+
+
+#info{
+    grid-area: 4/1/5/2;
+   
+    display: flex;
+    justify-content: space-around
+}
+
+.infoCard{
+    width: 20%;
+    height: 100%;
+
+}
+
+.fa-code, .fa-database, .fa-square-js, .fa-camera-retro{
+    margin-top: 40px;
+    font-size: 100px;
+    color: #704214;
+}
+
+.infoCard h2{
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.infoCard p{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+}
+
+
+#projects{
+    width: 100%;
+    height: 700px;
+    background-color: #f5f5f5;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 30px 1fr 50px;
+}
+
+#naslovP{
+    grid-area: 1/1/2/2;
+}
+
+#naslovP h1{
+    font-size:50px;
+    color:rgba(26,122,18);
+}
+
+#project{
+    grid-area: 3/1/4/2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#project h2{
+    font-size: 45px;
+    color: rgba(26,122,18,0.8);
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.slikaP{
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.slikaP img{
+    width: 98%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid #704214;
+}
+
+.proj{
+    width: 30%;
+    height: 100%;
+}
+
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color:rgba(26,122,18,0.8) ;
+}
+
+
+
+
+
+
+    .proj{
+                     width: 30%;
+            height: 100%;
+
+            .slikaP{
+                    width: $sirina100;
+                    height: 70%;
+                    border-radius: 20px;
+
+                    img{
+                        width: 98%;
+                        height: 100%;
+                        border-radius: 20px;
+                        border: 2px solid #704214;
+                    }
+                }
+        }
