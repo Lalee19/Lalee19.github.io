@@ -201,7 +201,7 @@ body{
                     color:$boja2;
                 }
 
-                h2{
+                h3{
                     font-size: 38px;
                     color: $boja5;
                 }
@@ -223,10 +223,11 @@ body{
                     color:$boja2;
                 }
 
-                h2{
+                h3{
                     font-size: 38px;
-                    color:$boja5;
+                    color: $boja5;
                 }
+
 
                 .donji{
                     padding-bottom: 20px;
@@ -354,11 +355,12 @@ body{
             display: flex;
             justify-content: space-evenly;
 
-            h2{
+            p{
                 font-size: 45px;
                 color: $boja2;
                 margin-top: 15px;
                 margin-bottom: 50px;
+                font-weight: 900;
             }
 
             .proj{
@@ -446,7 +448,7 @@ body{
             text-align: center;
             color: $boja1;
 
-            h2{
+            h3{
                 font-size: 35px;
                 margin-top: 12px;
             }
@@ -707,7 +709,7 @@ body{
                         color:$boja2;
                     }
     
-                    h2{
+                    h3{
                         font-size: 38px;
                         color:$boja5;
                     }
@@ -1009,7 +1011,7 @@ body{
                     tbody{
                         tr{
                             th{
-                                h2{
+                                h3{
                                     font-size: 28px;
                                 }
 
