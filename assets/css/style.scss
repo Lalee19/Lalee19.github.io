@@ -174,7 +174,7 @@ body{
         text-align: center;
         padding-top: 25px;
 
-        h1{
+        h3{
             color: $boja1;
             font-size: 50px
         }
@@ -201,7 +201,7 @@ body{
                     color:$boja2;
                 }
 
-                h3{
+                h4{
                     font-size: 38px;
                     color: $boja5;
                 }
@@ -223,7 +223,7 @@ body{
                     color:$boja2;
                 }
 
-                h3{
+                h4{
                     font-size: 38px;
                     color: $boja5;
                 }
@@ -281,7 +281,7 @@ body{
             #naslovS{
                 grid-area: 2/1/3/2;
 
-                h1{
+                h3{
                     font-size: 50px;
                     color: $boja4; 
                 }
@@ -342,7 +342,7 @@ body{
         #naslovP{
             grid-area: 1/1/2/2;
 
-            h1{
+            h3{
                 font-size:50px;
                 color:$boja3;
 
@@ -709,7 +709,7 @@ body{
                         color:$boja2;
                     }
     
-                    h3{
+                    h4{
                         font-size: 38px;
                         color:$boja5;
                     }
@@ -742,7 +742,7 @@ body{
                 display: block;
                 text-align: center;
                 padding-top: 20px;
-                h1{
+                h3{
                     font-size: 50px ;
                     color: $boja2;
                 }
